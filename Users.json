@@ -1,0 +1,53 @@
+[{
+  "_id": {
+    "$oid": "6277f63210c6ff5ad9457349"
+  },
+  "name": "Jack",
+  "email": "Jack@gmail.com",
+  "todo": [
+    "{\n                        id : \"1\",\n                        name : \"English\"\n                    }",
+    "{\n                        id : \"2\",\n                        name : \"Spanish\"\n                    }",
+    "{id : \"3\",\nname : \"Portuguese\"\n}",
+    "{ id: 5, name: Portuguese}"
+  ]
+},{
+  "_id": {
+    "$oid": "6277f77610c6ff5ad945734a"
+  },
+  "name": "Smith",
+  "email": "Smith@gmail.com",
+  "todo": [
+    {
+      "no": "1",
+      "name": "Chinses"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6277f7e810c6ff5ad945734b"
+  },
+  "name": "Harry",
+  "email": "Harry@gmail.com",
+  "todo": [
+    {
+      "no": "2",
+      "name": "English"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6277f82010c6ff5ad945734c"
+  },
+  "name": "Carl",
+  "email": "Carl@gmail.com",
+  "todo": [
+    {
+      "no": "4",
+      "name": "English"
+    },
+    {
+      "no": "5",
+      "name": "Portuguese"
+    }
+  ]
+}]
