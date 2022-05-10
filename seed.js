@@ -15,17 +15,40 @@ MongoClient.connect(url, function(err, db) {
 
 const seedUSers = [
     {
-        name:'Jack',
-        email: 'Jack@gmail.com'
+        name:'Smith',
+        email: 'Smith@gmail.com',
+        todo: [
+            {
+                no:"1",
+                name:"Chinses"
+            }
+        ]
 
     },
     {
-        name: 'Smith',
-        email: 'Smith@gmail.com'
+        name: 'Harry',
+        email: 'Harry@gmail.com',
+        todo: [
+            {
+                no:"2",
+                name:"English"
+            }
+        ]
     },
     {
         name: 'Carl',
-        email: 'Carl@gmail.com'
+        email: 'Carl@gmail.com',
+        todo: [
+            {
+                no:"4",
+                name:"English"
+            }
+            ,
+            {
+            no: "5",
+            name: "Portuguese"
+            }
+        ]
     }
 ]
 
