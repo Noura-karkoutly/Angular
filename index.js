@@ -1,5 +1,5 @@
 //const { Db1 } = require('./Connect_DB.js');
-
+const mongoose = require('mongoose')
 const express= require ('express')
 const app =express()
 const port = 3000
@@ -101,7 +101,7 @@ function get_ALLtodo (given_name)
 
 get_ALLtodo ("Carl");
 
-dbo.close();
+mongoose.connection.close();
 
 });
 
