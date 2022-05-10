@@ -24,8 +24,15 @@ const usersSchema = mongoose.Schema(
         email: {
             type: String,
             required: true 
+        },
+        todo:
+        {
+             type: [{no : String, 
+                     name: String}],
+             required:true   
         }
     }
 );
 
 module.exports= mongoose.model('Users',usersSchema);
+
